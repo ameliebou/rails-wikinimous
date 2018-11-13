@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>My articles</h1>
+  <ul>
+    <% @articles.each do |a| %>
+      <li>
+        <%= link_to a.title, article_path(a) %>
+        <%= link_to '', article_path(a), method: :delete, class:"fas fa-trash-alt" %>
+      </li>
+    <% end %>
+  </ul>
+  <%= link_to "Add new article", new_article_path, class:'btn' %>
+</div>

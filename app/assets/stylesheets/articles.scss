@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:300,400,600');
+
+body {
+  font-family: 'Niramit', sans-serif;
+  margin: 0
+}
+
+.banner {
+  height: 25vh;
+  background: linear-gradient(-165deg, rgba(168, 39, 0, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url("https://proxy.duckduckgo.com/iur/?f=1&image_host=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fc4%2F54%2F4f%2Fc4544f3ea000f5368316924029caf94c.jpg&u=https://i.pinimg.com/736x/c4/54/4f/c4544f3ea000f5368316924029caf94c.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  margin: 0 5%;
+  width: 70vw;
+}
+
+a {
+  color: rgb(50,50,50);
+  text-decoration: none;
+  &:hover {
+    color: rgb(175,175,175);
+  }
+}
+
+.article {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #ed7d00;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: white;
+  margin-right: 20px;
+  &:hover {
+    color: #edb477;
+  }
+}
+ul {
+  padding-left: 20px;
+}
+li {
+  list-style: none;
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}
+.fas {
+  margin-left: 10px;
+}
+.form-group {
+  padding: 10px 0;
+}
+.last {
+  padding-bottom: 50px;
+}
+input {
+  width: 25vw;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: 'Niramit';
+  font-size: 15px;
+}
+
